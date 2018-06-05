@@ -1,0 +1,15 @@
+# Lines starting with '#' are considered comments.
+# Ignore any file named foo.txt.
+ABA_problemX64.vcxproj
+ABA_problemX64.vcxproj.filters
+ABA_problemX64.vcxproj.user
+stdafx.h
+stdafx.cpp
+targetver.h
+# Ignore (generated) html files,
+*.html
+# except foo.html which is maintained by hand.
+!foo.html
+# Ignore objects and archives.
+*.[oa]
+x64
